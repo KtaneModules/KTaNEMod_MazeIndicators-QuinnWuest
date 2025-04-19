@@ -124,8 +124,6 @@ public class MazeWidgetScript : MonoBehaviour
 
     private string Query(string queryKey, string queryInfo)
     {
-        Debug.LogFormat("<Maze Indicator> Queried with key: \"{1}\", info: {0}", queryInfo, queryKey);
-
         if(queryKey != KMBombInfo.QUERYKEY_GET_INDICATOR)
             return null;
 
